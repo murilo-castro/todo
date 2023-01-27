@@ -6,12 +6,12 @@ module.exports = {
     es6: true,
     jest: true,
   },
-  extends: ['airbnb', 'prettier', 'prettier/react'],
+  extends: ['airbnb', 'prettier'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
-  parser: 'babel-eslint',
+  // parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
